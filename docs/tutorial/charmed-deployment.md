@@ -116,7 +116,7 @@ juju status --watch 5s
 Before both requirements are available, the Enterprise Store unit can report
 `Missing database relation` or `The unit is not registered, please supply a
 registration_bundle`. When ready, its status is `Running on:
-http://test-store`. Press **Ctrl+C** to stop watching.
+http://test-store`. Press **Ctrl+C** to stop watching. Note that only 14/<risk> is supported for postgresql databases.
 
 ### Resolve the store name from its unit
 
