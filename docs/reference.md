@@ -8,13 +8,17 @@ description: Technical reference for Enterprise Store configuration, APIs, featu
 Our *Reference* section contains technical details (such as the Overrides API and
 authentication mechanism), and other supplementary reference materials.
 
-| **Reference**                                         | Content                                                                  |
-|-------------------------------------------------------|--------------------------------------------------------------------------|
-| [Store Configuration](reference/configuration.rst)    | A list of the store's configuration keys and default values              |
-| [Overrides API](reference/api-overrides.md)           | API specs for the Overrides API                                          |
-| [API authentication](reference/api-authentication.md) | API authentication for store admins when using the Overrides API         |
-| [Cryptography](reference/cryptography.md)             | An outline of the usage of cryptographic technology                      |
+```{eval-rst}
+.. domain:: Reference documentation
 
+    .. slice:: Content
+
+        :doc:`Store Configuration <reference/configuration>`
+        :doc:`Overrides API <reference/api-overrides>`
+        :doc:`API authentication <reference/api-authentication>`
+        :doc:`Cryptography <reference/cryptography>`
+        :doc:`Enterprise Store charm <reference/charm>`
+```
 
 If you have a specific goal, but are already familiar with the Enterprise Store,
 our *How-to* guides have more in-depth detail than our tutorials and can be applied to
@@ -31,4 +35,5 @@ you to understand and adapt the steps to fit your specific requirements.
     reference/api-overrides
     reference/api-authentication
     reference/cryptography
+    reference/charm
 ```

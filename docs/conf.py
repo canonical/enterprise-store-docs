@@ -238,6 +238,7 @@ myst_heading_anchors = 3
 extensions = [
     "canonical_sphinx",
     "notfound.extension",
+    "sphinx_structured_toc",
     "sphinx_design",
     "sphinx_rerediraffe",
     "sphinx_reredirects",
