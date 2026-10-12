@@ -25,22 +25,45 @@ connected system.
 In this documentation
 ---------------------
 
-.. list-table::
-   :widths: 25 75
-   :header-rows: 0
+.. domain::
 
-   * - **Getting started**
-     - :doc:`tutorial/get-started` • :doc:`how-to/devices` • :doc:`how-to/overrides` • :doc:`reference/configuration`
-   * - **Air-gapped deployments**
-     - :doc:`tutorial/air-gapped-deployment` • :doc:`how-to/airgap`
-   * - **Charm support**
-     - :doc:`how-to/charmhub-proxy` • :doc:`how-to/airgap-charmhub`
-   * - **Dedicated Snap Store support**
-     - :doc:`how-to/integrate-a-dedicated-snap-store` • :doc:`how-to/publish-snaps` • :doc:`how-to/build-images`
-   * - **API documentation**
-     - :doc:`reference/api-authentication` • :doc:`reference/api-overrides`
-   * - **Security**
-     - :doc:`how-to/security` • :doc:`reference/cryptography`
+  .. slice:: Getting started
+
+    :doc:`tutorial/get-started`
+    :doc:`how-to/devices`
+    :doc:`how-to/overrides`
+    :doc:`reference/configuration`
+
+  .. slice:: Air-gapped deployments
+
+    :doc:`tutorial/air-gapped-deployment`
+    :doc:`how-to/airgap`
+
+  .. slice:: Serving charms (Charmhub Proxy)
+
+    :doc:`how-to/charmhub-proxy`
+    :doc:`how-to/airgap-charmhub`
+
+  .. slice:: Charmed deployment
+
+    :doc:`tutorial/charmed-deployment`
+    :doc:`how-to/deploy-charmed-store`
+
+  .. slice:: Dedicated Snap Store support
+
+    :doc:`how-to/integrate-a-dedicated-snap-store`
+    :doc:`how-to/publish-snaps`
+    :doc:`how-to/build-images`
+
+  .. slice:: API documentation
+
+    :doc:`reference/api-authentication`
+    :doc:`reference/api-overrides`
+
+  .. slice:: Security
+
+    :doc:`how-to/security`
+    :doc:`reference/cryptography`
 
 How this documentation is organised
 -----------------------------------
@@ -76,4 +99,3 @@ Thinking about deploying the Enterprise Store in your enterprise? `Get in touch!
    Tutorial <tutorial>
    How-to <how-to>
    Reference <reference>
-

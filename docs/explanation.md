@@ -10,10 +10,6 @@ Our explanatory and conceptual guides are written to provide a better understand
 how the Enterprise Store works and how it can be used and configured. They enable you
 to expand your knowledge and become better at using the Proxy.
 
-| **Explanation guides** | Why it does what it does |
-|------------------------|--------------------------|
-|                        |                          |
-
 For a simpler place to start with the Proxy, our *Tutorials* section contains
 step-by-step tutorials to outline what the Proxy is capable of while helping
 you achieve specific aims.
