@@ -408,7 +408,11 @@ core24  ubuntu
 helix   ubuntu
 ```
 
-Now our air-gapped Enterprise Store is set up with multiple snaps available for connected devices to obtain. Note that charm deployments will have to first transfer the tarballs into one of the units before pushing the snap. 
+Now our air-gapped Enterprise Store is set up with multiple snaps available for connected devices to obtain.
+
+```{note}
+Charm deployments will need to transfer the tarballs into one of the units before pushing the snap. 
+```
 
 ## Offline device configuration
 
