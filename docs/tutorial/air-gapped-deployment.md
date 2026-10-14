@@ -410,6 +410,10 @@ helix   ubuntu
 
 Now our air-gapped Enterprise Store is set up with multiple snaps available for connected devices to obtain.
 
+```{note}
+Charm deployments will need to transfer the tarballs into one of the units before pushing the snap. 
+```
+
 ## Offline device configuration
 
 To properly test an air-gapped Enterprise Store, we need a device that also can't connect to any online services. In this section, we'll make some adjustments to the test-device to properly validate our air-gapped store.
