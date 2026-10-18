@@ -10,22 +10,25 @@ our *How-to* guides have more in-depth detail than our tutorials and can be appl
 a broader set of applications. They’ll help you achieve an end result but may require
 you to understand and adapt the steps to fit your specific requirements.
 
+```{eval-rst}
+.. domain:: How-to guides
 
+    .. slice:: Get stuff done
 
-| **How-to guides**                                                             | Get stuff done                                                              |
-|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| [Installation](how-to/install.md)                                             | Install and set up the Enterprise Store                                     |
-| [Proxy registration](how-to/register.md)                                      | Register the store with the SaaS Store                                      |
-| [Configuring snap devices](how-to/devices.md)                                 | Point your devices to the Enterprise Store instead of the SaaS Store        |
-| [Overriding snap revisions](how-to/overrides.md)                              | Control the specific revisions of snaps in the channels of your store       |
-| [Offline store](how-to/airgap.md)                                             | Deploy the Enterprise Store in an air-gapped environment                    |
-| [Model service](how-to/on-prem-model-service.md)                              | Configure an air-gapped store for signing device serial requests            |
-| [Manage charms](how-to/charmhub-proxy.md)                                     | Manage charms with your Enterprise Store                                    |
-| [Security enhancements](how-to/security.md)                                   | Enhance your Enterprise Store's security                                    |
-| [Troubleshooting](how-to/trouble.md)                                          | Check your configuration status and diagnose common issues                  |
-| [Migrate](how-to/migrate.md)                                                  | Migrate from the Snap Store Proxy snap to the Enterprise Store snap         |
-| [Enable High-Availability (HA)](how-to/high-availability.md)                  | Enable High-Availability for the Enterprise Store                           |
-| [Integrate a Dedicated Snap Store](how-to/integrate-a-dedicated-snap-store.md)| Integrate with a Dedicated Snap Store                                       |
+        :doc:`Installation <how-to/install>`
+        :doc:`Deploy as a charm <how-to/deploy-charmed-store>`
+        :doc:`Proxy registration <how-to/register>`
+        :doc:`Configuring snap devices <how-to/devices>`
+        :doc:`Overriding snap revisions <how-to/overrides>`
+        :doc:`Offline store <how-to/airgap>`
+        :doc:`Model service <how-to/on-prem-model-service>`
+        :doc:`Manage charms <how-to/charmhub-proxy>`
+        :doc:`Security enhancements <how-to/security>`
+        :doc:`Troubleshooting <how-to/trouble>`
+        :doc:`Migrate <how-to/migrate>`
+        :doc:`Enable High-Availability (HA) <how-to/high-availability>`
+        :doc:`Integrate a Dedicated Snap Store <how-to/integrate-a-dedicated-snap-store>`
+```
 
 Take a look at our {doc}`Reference <reference>` section for technical details (such as the Overrides API
 specs and authentication mechanism), and other supplementary reference materials.
@@ -36,6 +39,7 @@ specs and authentication mechanism), and other supplementary reference materials
     :maxdepth: 1
 
     Install an Enterprise Store <how-to/install>
+    Deploy the Enterprise Store as a charm <how-to/deploy-charmed-store>
     Register an Enterprise Store <how-to/register>
     Configure devices <how-to/devices> 
     Override snap revisions <how-to/overrides>
